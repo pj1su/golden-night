@@ -1,0 +1,133 @@
+body {
+    background-color: #0B0B0B;
+}
+.MainPage{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/@bg.png');
+    .margin_box {
+        padding: 18%;
+    }
+    .Title_box {
+        margin: auto;
+        width: 100%;
+        div {
+            display: flex;
+            justify-content: center;
+        }
+        .Title {
+            font-size: 10.5vw;
+            font-weight: 300;
+            color: #9E9E9E;
+            font-family: sans-serif;
+        }
+        .day {
+            color: #D6D6D6;
+            margin-top: -2%;
+            font-size: 5vw;
+            font-weight: 500;
+            font-family: sans-serif;
+        }
+        .code {
+            color: #D6D6D6;
+            font-size: 3.2vw;
+            padding: 4% 0px 11% 0px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            font-family: sans-serif;
+            img {
+                width: 4vw;
+                padding-right: 4%;
+            }
+            span {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            }
+        }
+    }
+    .code_input {
+        background-color: rgb(0, 17, 17);
+        margin: auto;
+        width: 95%;
+        padding: 15% 0px 15% 0px;
+        &.act {
+            background-image: url('../img/asdf.png');
+            background-repeat: no-repeat;
+            background-size:cover;
+            .descriptions {
+                color: #97BDBF;
+            }
+        }
+        .descriptions {
+            margin: auto;
+            text-align: center;
+            color: white;
+            width: 80%;
+            font-size: 4vw;
+            word-wrap: break-word;
+            padding: 0px 0px 5% 0px;
+            font-family: sans-serif;
+        }
+        .total {
+            display: flex;
+            justify-content: center;
+            font-size: 6vw;
+            font-weight: 600;
+            color: white;
+            padding: 0px 0px 6% 0px;
+            font-family: sans-serif;
+            span {
+                color: rgb(209, 209, 0);
+            }
+        }
+        .input_box {
+            width:100%;
+            display: flex;
+            justify-content: center;
+            input {
+                color: white;
+                width: 51%;
+                border: 1px solid rgb(43, 43, 43);
+                border-radius: 50px;
+                background-color: black;
+                padding: 2.5% 15% 2.5% 4%;
+                font-size: 2vw;
+                letter-spacing: 1px;
+                &:focus {
+                    outline:none;
+                }
+                &::placeholder {
+                    color: rgb(70, 70, 70);
+                }
+            }
+            .sub_btn {
+                width: 20%;
+                color: white;
+                font-size: 2.2vw;
+                font-weight: 600;
+                background-color: rgb(57, 57, 57);
+                border-radius: 50px;
+                border: none;
+                cursor: pointer;
+                margin-left: -14%;
+            }
+            .btn_active {
+                background-color: rgb(209, 209, 0);
+            }
+        }
+    }
+    .FAQ_LIST {
+        width: 95%;
+        padding:6% 0px 0px 2.5%;
+        h1 {
+            color: white;
+            font-weight: 300;
+            font-size: 55px;
+            font-family: sans-serif;
+        }
+    }
+}

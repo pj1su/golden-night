@@ -1,0 +1,32 @@
+.Footer {
+    padding: 10% 0px 0px 0px;
+    width: 100%;
+    .footer_box {
+        background-color: #021014;
+        padding: 7% 2.5% 7% 2.5%;
+        display: flex;
+        justify-content: space-between;
+        .footer_logo {
+            display: flex;
+            align-items: center;
+        }
+        .right_box {
+            width: 32%;
+            .SNS_box {
+                padding: 0px 0px 6% 0px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .Inc{
+                color: #9E9E9E;
+                font-size: 1.4vw;
+                text-align: center;
+                font-family: sans-serif;
+            }
+        }
+    }
+}
